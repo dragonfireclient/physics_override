@@ -21,3 +21,7 @@ minetest.register_on_recieve_physics_override(function(override)
 	legit_override = override
     return true
 end) 
+
+minetest.register_cheat("SpeedOverride", "Movement", "override_speed")
+minetest.register_cheat("GravityOverride", "Movement", "override_gravity")
+minetest.register_cheat("JumpOverride", "Movement", "override_jump")
